@@ -1,12 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>&lt;my-element> Demo</title>
+    <title>Podium Demo</title>
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script src="../node_modules/lit/polyfill-support.js"></script>
-    <script type="module" src="../my-element.js"></script>
+    <script type="module" src="../podium-element.js"></script>
+    <script type="module" src="../podium-list-element.js"></script>
     <style>
       p {
         border: solid 1px blue;
@@ -15,8 +16,10 @@
     </style>
   </head>
   <body>
-    <my-element>
-      <p>This is child content</p>
-    </my-element>
+    <podium-element>
+      <div>Verstappen</div>
+      <div>Hamilton</div>
+      <div>Bottas</div>
+    </podium-element>
   </body>
 </html>
